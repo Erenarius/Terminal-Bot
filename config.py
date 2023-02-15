@@ -5,8 +5,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 
 token = 6114960309:AAEeP4RKviFHSJt7fN8r8jyHTsjIIh3ViiY
-app_id = int(os.environ.get("APP_ID"))
-app_hash = os.environ.get("API_HASH")
+app_id = int(os.environ.get("24745736"))
+app_hash = os.environ.get("3888283f63b48b463f01cc90c5a469e9")
 allowed = [int(user) if id_pattern.search(user) else user for user in os.environ.get('Erenarius', '').split()]
 
 help_text = """
