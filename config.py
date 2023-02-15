@@ -4,20 +4,20 @@ import re
 id_pattern = re.compile(r'^.\d+$')
 
 
-token = os.environ.get("TOKEN")
+token = 6114960309:AAEeP4RKviFHSJt7fN8r8jyHTsjIIh3ViiY
 app_id = int(os.environ.get("APP_ID"))
 app_hash = os.environ.get("API_HASH")
-allowed = [int(user) if id_pattern.search(user) else user for user in os.environ.get('AUTH_USERS', '').split()]
+allowed = [int(user) if id_pattern.search(user) else user for user in os.environ.get('Erenarius', '').split()]
 
 help_text = """
-Hello I'm Terminal Bot which will Execute your Commands.
+Merhabaaa Ben @Erenarius abimin botuyum :)
 
-With this bot you can execute system commands on your server.
+Terminal'i bu botla kullanıcakmıs o.
 
-**if you not owner of this bot You can not use me because I'm private...
-So you run one of these for yourself [here](https://github.com/moshe-coh/Terminal-Bot)**
+**Sahibim olmadığın için beni kullanamazsın. @Erenarius
+TELEGRAM APK ARSIVI ==> [URL](t.me/mooveapk)**
 
-**My Commands For Owner Only:**
+**erenarius abime özel komutlar:**
 
 🔹 /st - speed test
 🔹 /ip - ip details
